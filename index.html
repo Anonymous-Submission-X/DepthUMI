@@ -7,7 +7,7 @@
   <meta name="description" content="DepthUMI — anonymous research project page.">
   <title>DepthUMI</title>
   <style>
-    @font-face { font-family: "Inter Display"; src: url("assets/fonts/InterDisplay-Light.otf") format("opentype"); font-weight: 300; font-style: normal; font-display: swap; }
+    @font-face { font-family: "GFS Didot"; src: url("assets/fonts/GFSDidot.otf") format("opentype"); font-weight: 400; font-style: normal; font-display: swap; }
     :root {
       color-scheme: light;
       --ink: #101112;
@@ -33,15 +33,15 @@
       align-items: center;
       border-bottom: 1px solid var(--rule);
     }
-    .wordmark { font-size: 17px; font-weight: 400; letter-spacing: -.045em; }
+    .wordmark { font-family: "GFS Didot", Didot, Georgia, serif; font-size: 20px; font-weight: 400; letter-spacing: -.025em; }
     .category, footer { font-size: 13px; line-height: 1.6; color: var(--muted); }
     main { display: flex; flex-direction: column; justify-content: center; padding: 96px 0 132px; }
     h1 {
       margin: 0;
-      font-family: "Inter Display", "Helvetica Neue", Arial, sans-serif;
+      font-family: "GFS Didot", Didot, "Bodoni MT", Georgia, serif;
       font-size: clamp(56px, 10vw, 160px);
-      font-weight: 300;
-      letter-spacing: -.025em;
+      font-weight: 400;
+      letter-spacing: -.035em;
       line-height: 1.1;
     }
     .stroke { width: clamp(48px, 6.7vw, 104px); height: 1px; background: var(--ink); margin: 50px 0 0 6px; }
@@ -50,7 +50,7 @@
     ::selection { color: #fff; background: #222; }
     @media (max-width: 600px) {
       header { min-height: 80px; }
-      .wordmark { font-size: 15px; }
+      .wordmark { font-size: 18px; }
       .category, footer { font-size: 12px; }
       h1 { font-size: clamp(48px, 13.4vw, 80px); }
       main { padding: 88px 0 112px; }
